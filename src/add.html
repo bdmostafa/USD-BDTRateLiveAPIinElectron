@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="../assets/css/main.css" >
+    <link rel="stylesheet" href="../assets/css/add.css" >
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="notification">Notify me when BDT target reaches..</p>
+    <div class="row-add">
+        <div>
+            <input type="number" id="notify-value" placeholder="Target BDT">
+        </div>
+        <button id="update-btn">Check price</button>
+    </div>
+    <a id="close-btn">Close</a><br>
+    <script src="add.js"></script>
+  </body>
+</html>
